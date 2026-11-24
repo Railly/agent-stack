@@ -2763,6 +2763,56 @@
       "lastResearched": "2026-03-25"
     },
     {
+      "id": "dial",
+      "name": "Dial",
+      "category": "agent-phone",
+      "description": "Real phone numbers for AI agents: SMS, iMessage, WhatsApp, AI voice calls, and inbound events",
+      "homepage": "https://getdial.ai",
+      "docsUrl": "https://docs.getdial.ai",
+      "mcp": {
+        "status": "official",
+        "url": "https://getdial.ai/mcp",
+        "package": "@getdial/cli"
+      },
+      "platformApi": {
+        "status": "official",
+        "type": "REST",
+        "docsUrl": "https://docs.getdial.ai/api-reference/rest-api"
+      },
+      "cli": {
+        "status": "official",
+        "name": "dial",
+        "installCmd": "npm i -g @getdial/cli",
+        "supportsJson": true,
+        "nonInteractive": true
+      },
+      "skills": {
+        "status": "official",
+        "hasSkillFile": true,
+        "hasAgentRules": true,
+        "hasPrompts": true
+      },
+      "docs": {
+        "llmsTxt": true,
+        "llmsTxtUrl": "https://docs.getdial.ai/llms.txt",
+        "copyMarkdown": true,
+        "aiQuickstart": true,
+        "aiQuickstartUrl": "https://docs.getdial.ai/documentation/get-started/using-dial-from-an-agent",
+        "openApiSpec": true
+      },
+      "score": 100,
+      "maxScore": 100,
+      "links": {
+        "github": "https://github.com/GetDial-AI/cli",
+        "mcpDocs": "https://docs.getdial.ai/integrations/tools/mcp",
+        "cliDocs": "https://docs.getdial.ai/documentation/cli/commands",
+        "apiDocs": "https://docs.getdial.ai/api-reference/rest-api",
+        "skillsDocs": "https://docs.getdial.ai/integrations/tools/cli-skill"
+      },
+      "lastUpdated": "2026-11-24",
+      "lastResearched": "2026-11-24"
+    },
+    {
       "id": "mem0",
       "name": "Mem0",
       "category": "memory",
